@@ -1,0 +1,67 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#060714"/>
+      <stop offset="0.45" stop-color="#0b1340"/>
+      <stop offset="0.8" stop-color="#241041"/>
+      <stop offset="1" stop-color="#3a0f2a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.95" r="0.6">
+      <stop offset="0" stop-color="#ffdf8a" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#f5b942" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#e6203f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rBody" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8fa3ff"/>
+      <stop offset="0.5" stop-color="#2451ff"/>
+      <stop offset="1" stop-color="#12245c"/>
+    </linearGradient>
+    <linearGradient id="smoke" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c7cde8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#c7cde8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#f6f7fb">
+    <circle cx="120" cy="90" r="1.6" opacity="0.8"/><circle cx="260" cy="150" r="1.2" opacity="0.6"/>
+    <circle cx="400" cy="70" r="1.8" opacity="0.7"/><circle cx="560" cy="120" r="1.3" opacity="0.6"/>
+    <circle cx="700" cy="60" r="1.5" opacity="0.75"/><circle cx="900" cy="100" r="1.2" opacity="0.55"/>
+    <circle cx="1080" cy="70" r="1.7" opacity="0.7"/><circle cx="1250" cy="140" r="1.3" opacity="0.6"/>
+    <circle cx="1400" cy="90" r="1.6" opacity="0.75"/><circle cx="1520" cy="180" r="1.2" opacity="0.55"/>
+    <circle cx="60" cy="260" r="1.3" opacity="0.5"/><circle cx="850" cy="220" r="1.4" opacity="0.6"/>
+    <circle cx="1470" cy="300" r="1.3" opacity="0.55"/><circle cx="200" cy="330" r="1.1" opacity="0.5"/>
+  </g>
+
+  <!-- moon -->
+  <circle cx="1350" cy="150" r="70" fill="#e9ecf9" opacity="0.9"/>
+  <circle cx="1330" cy="130" r="10" fill="#c7cde8" opacity="0.5"/>
+  <circle cx="1370" cy="170" r="6" fill="#c7cde8" opacity="0.4"/>
+
+  <!-- distant horizon silhouette -->
+  <path d="M0 780 Q 200 740 400 770 T 800 760 T 1200 775 T 1600 760 L1600 900 L0 900 Z" fill="#04040c"/>
+
+  <!-- exhaust glow -->
+  <ellipse cx="800" cy="860" rx="260" ry="140" fill="url(#glow)"/>
+
+  <!-- smoke plumes -->
+  <path d="M700 900 C 660 820 620 800 560 790 C 500 780 480 830 520 860 L 620 900 Z" fill="url(#smoke)"/>
+  <path d="M900 900 C 940 820 980 800 1040 790 C 1100 780 1120 830 1080 860 L 980 900 Z" fill="url(#smoke)"/>
+
+  <!-- rocket -->
+  <g>
+    <path d="M800 300 L840 700 L760 700 Z" fill="url(#rBody)"/>
+    <path d="M780 420 L820 420 L830 700 L770 700 Z" fill="#0b1340" opacity="0.25"/>
+    <path d="M760 640 L710 700 L760 690 Z" fill="#e6203f"/>
+    <path d="M840 640 L890 700 L840 690 Z" fill="#e6203f"/>
+    <circle cx="800" cy="400" r="20" fill="#0b1340"/>
+    <circle cx="800" cy="400" r="14" fill="#f6f7fb"/>
+    <path d="M800 300 C 815 320 826 350 828 385 L772 385 C 774 350 785 320 800 300 Z" fill="#ffffff" opacity="0.15"/>
+  </g>
+
+  <!-- flame -->
+  <path d="M770 700 C 760 760 780 820 800 860 C 820 820 840 760 830 700 Z" fill="#f5b942" opacity="0.9"/>
+  <path d="M785 700 C 780 740 790 780 800 810 C 810 780 820 740 815 700 Z" fill="#fff3cf"/>
+</svg>

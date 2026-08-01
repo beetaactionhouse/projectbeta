@@ -1,0 +1,14 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="earthGrad" cx="0.35" cy="0.3" r="0.9">
+      <stop offset="0" stop-color="#5c7bff"/>
+      <stop offset="0.6" stop-color="#2451ff"/>
+      <stop offset="1" stop-color="#0b1340"/>
+    </radialGradient>
+  </defs>
+  <circle cx="120" cy="120" r="100" fill="url(#earthGrad)"/>
+  <path d="M40 90 Q80 70 110 90 T170 95 Q190 100 200 120" stroke="#f6f7fb" stroke-width="10" fill="none" opacity="0.35" stroke-linecap="round"/>
+  <path d="M30 150 Q70 140 100 155 T160 150 Q190 155 205 145" stroke="#f6f7fb" stroke-width="8" fill="none" opacity="0.28" stroke-linecap="round"/>
+  <path d="M60 60 Q90 50 110 65 T150 60" stroke="#e6203f" stroke-width="6" fill="none" opacity="0.4" stroke-linecap="round"/>
+  <circle cx="120" cy="120" r="100" fill="none" stroke="#f5b942" stroke-width="2" opacity="0.5"/>
+</svg>
