@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="satBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5c7bff"/>
+      <stop offset="1" stop-color="#e6203f"/>
+    </linearGradient>
+    <linearGradient id="satRing" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f5b942" stop-opacity="0.2"/>
+      <stop offset="0.5" stop-color="#f5b942" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#f5b942" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="200" cy="160" rx="185" ry="34" fill="none" stroke="url(#satRing)" stroke-width="10"/>
+  <ellipse cx="200" cy="160" rx="185" ry="34" fill="none" stroke="#0b1340" stroke-width="2" opacity="0.4"/>
+
+  <circle cx="200" cy="150" r="86" fill="url(#satBody)"/>
+  <ellipse cx="200" cy="150" rx="86" ry="86" fill="none" stroke="#0b1340" stroke-width="1" opacity="0.15"/>
+  <path d="M130 110 Q200 130 270 100" stroke="#ffffff" stroke-width="6" opacity="0.18" fill="none"/>
+  <path d="M124 150 Q200 175 276 150" stroke="#0b1340" stroke-width="8" opacity="0.15" fill="none"/>
+
+  <ellipse cx="200" cy="160" rx="185" ry="34" fill="none" stroke="url(#satRing)" stroke-width="4" opacity="0.9"
+           clip-path="inset(0 0 34px 0)"/>
+
+  <circle cx="60" cy="40" r="3" fill="#f6f7fb" opacity="0.7"/>
+  <circle cx="340" cy="60" r="2.5" fill="#f6f7fb" opacity="0.6"/>
+  <circle cx="360" cy="230" r="3" fill="#f6f7fb" opacity="0.5"/>
+  <circle cx="30" cy="220" r="2" fill="#f6f7fb" opacity="0.6"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5c7bff"/>
+      <stop offset="1" stop-color="#e6203f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- starburst -->
+  <g stroke="#f5b942" stroke-width="4" opacity="0.85">
+    <line x1="190" y1="40" x2="190" y2="10"/>
+    <line x1="190" y1="40" x2="215" y2="20"/>
+    <line x1="190" y1="40" x2="165" y2="20"/>
+  </g>
+  <circle cx="190" cy="45" r="8" fill="#f5b942"/>
+
+  <!-- sound block -->
+  <rect x="40" y="200" width="90" height="18" rx="4" fill="#0b1340"/>
+
+  <!-- handle -->
+  <rect x="95" y="90" width="16" height="120" rx="8" fill="#8a5a2b" transform="rotate(45 103 150)"/>
+
+  <!-- gavel head -->
+  <rect x="60" y="70" width="90" height="46" rx="10" fill="url(#headGrad)" transform="rotate(45 105 93)"/>
+  <rect x="60" y="70" width="90" height="10" rx="5" fill="#ffffff" opacity="0.25" transform="rotate(45 105 93)"/>
+
+  <circle cx="60" cy="60" r="2" fill="#f6f7fb" opacity="0.7"/>
+  <circle cx="220" cy="120" r="2.4" fill="#f6f7fb" opacity="0.6"/>
+  <circle cx="200" cy="200" r="1.8" fill="#f6f7fb" opacity="0.5"/>
+</svg>
