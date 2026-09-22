@@ -1,0 +1,38 @@
+<svg viewBox="0 0 1600 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyE" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#04040c"/>
+      <stop offset="1" stop-color="#0b1340"/>
+    </linearGradient>
+    <radialGradient id="earthG" cx="0.4" cy="0.35" r="0.85">
+      <stop offset="0" stop-color="#7d97ff"/>
+      <stop offset="0.55" stop-color="#2451ff"/>
+      <stop offset="1" stop-color="#0b1340"/>
+    </radialGradient>
+    <radialGradient id="sunG" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff3cf"/>
+      <stop offset="0.5" stop-color="#f5b942" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#f5b942" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="700" fill="url(#skyE)"/>
+
+  <g fill="#f6f7fb">
+    <circle cx="120" cy="80" r="1.6" opacity="0.8"/><circle cx="300" cy="140" r="1.2" opacity="0.6"/>
+    <circle cx="1200" cy="90" r="1.7" opacity="0.7"/><circle cx="1400" cy="180" r="1.3" opacity="0.6"/>
+    <circle cx="80" cy="500" r="1.4" opacity="0.55"/><circle cx="1500" cy="480" r="1.3" opacity="0.55"/>
+    <circle cx="700" cy="60" r="1.5" opacity="0.7"/><circle cx="950" cy="600" r="1.2" opacity="0.5"/>
+  </g>
+
+  <!-- sun glow top-right -->
+  <ellipse cx="1400" cy="80" rx="220" ry="220" fill="url(#sunG)"/>
+
+  <!-- earth -->
+  <circle cx="620" cy="380" r="260" fill="url(#earthG)"/>
+  <path d="M420 280 Q 520 240 600 280 T 800 260 Q 850 270 880 300" stroke="#f6f7fb" stroke-width="20" fill="none" opacity="0.28" stroke-linecap="round"/>
+  <path d="M400 420 Q 480 400 560 430 T 760 420 Q 830 430 870 400" stroke="#f6f7fb" stroke-width="16" fill="none" opacity="0.22" stroke-linecap="round"/>
+  <path d="M460 500 Q 520 480 590 500 T 730 490" stroke="#e6203f" stroke-width="10" fill="none" opacity="0.3" stroke-linecap="round"/>
+  <circle cx="620" cy="380" r="260" fill="none" stroke="#f5b942" stroke-width="3" opacity="0.5"/>
+  <ellipse cx="540" cy="290" rx="90" ry="50" fill="#ffffff" opacity="0.06"/>
+</svg>
