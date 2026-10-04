@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BEETA Auction House — Where Bidding Reaches the Stars</title>
+<meta name="description" content="BEETA Auction House is a premier international auction house for rare collectibles, fine art, jewelry, automobiles and space memorabilia.">
+<link rel="icon" href="images/logo.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&family=Sora:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<canvas id="starfield"></canvas>
+<div class="grain"></div>
+
+<header class="site-nav">
+  <div class="nav-row">
+    <a href="index.html" class="brand">
+      <img src="images/logo.jpeg" alt="BEETA Auction House logo">
+      <span class="name">BEETA<span>AUCTION HOUSE</span></span>
+    </a>
+    <nav class="main-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Auctions</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="team.html">Team</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-primary">Register to Bid</a>
+      <button class="burger" aria-label="Toggle menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-bg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Falcon_9_Starlink_6-38_Launch_%288215014%29.jpg?width=1600" alt="Real photograph of a rocket launching into the night sky, representing BEETA Auction House's cosmic brand identity"></div>
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">International Auction House · Est. Bidding Excellence</span>
+      <h1>Where Bidding<br>Reaches the <span class="grad-text">Stars</span></h1>
+      <p class="lead">BEETA Auction House connects collectors, investors and institutions across the globe through curated auctions of rare art, jewelry, antiques, automobiles and one-of-a-kind space memorabilia — conducted with precision, transparency and trust.</p>
+      <div class="hero-actions">
+        <a href="services.html" class="btn btn-primary">🚀 Explore Auctions</a>
+        <a href="about.html" class="btn btn-ghost">Learn More</a>
+      </div>
+    </div>
+    <div class="orbit-figure">
+      <div class="orbit-ring r1"><span class="orbit-dot"></span></div>
+      <div class="orbit-ring r2"></div>
+      <div class="orbit-ring r3"></div>
+      <div class="orbit-core"><img src="images/logo.jpeg" alt="BEETA Auction House emblem"></div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat">
+        <div class="num" data-count="18400" data-suffix="+">0</div>
+        <div class="label">Lots Sold</div>
+      </div>
+      <div class="stat">
+        <div class="num" data-count="240" data-suffix="M+">0</div>
+        <div class="label">Hammer Value (USD)</div>
+      </div>
+      <div class="stat">
+        <div class="num" data-count="46" data-suffix="+">0</div>
+        <div class="label">Countries Served</div>
+      </div>
+      <div class="stat">
+        <div class="num" data-count="99" data-suffix="%">0</div>
+        <div class="label">Client Satisfaction</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">What We Offer</span>
+      <h2>Auction expertise across every category of value</h2>
+      <p>From nebula-rare space artifacts to timeless fine art, our specialists curate and authenticate every lot that crosses the block.</p>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="icon">🚀</div>
+        <h3>Space &amp; Aviation Memorabilia</h3>
+        <p>Flown hardware, mission patches, astronaut-signed artifacts and rare aerospace collectibles verified for provenance.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🎨</div>
+        <h3>Fine Art &amp; Sculpture</h3>
+        <p>Curated modern, contemporary and classical works from emerging talents to celebrated masters.</p>
+      </div>
+      <div class="card">
+        <div class="icon">💎</div>
+        <h3>Jewelry &amp; Gemstones</h3>
+        <p>Certified diamonds, colored gemstones and heritage jewelry appraised by accredited gemologists.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🏛️</div>
+        <h3>Antiques &amp; Collectibles</h3>
+        <p>Rare manuscripts, vintage instruments, coins and historical artifacts with full authentication records.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🚗</div>
+        <h3>Classic &amp; Exotic Automobiles</h3>
+        <p>Restored classics and limited-edition performance vehicles inspected end-to-end before every sale.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🏠</div>
+        <h3>Luxury Real Estate</h3>
+        <p>Signature residences and estate properties brought to auction with full legal and title verification.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">Why Choose BEETA</span>
+      <h2>A trusted launchpad for serious collectors</h2>
+      <p style="margin-top:16px;">Every lot at BEETA passes through a rigorous chain of authentication, legal clearance and independent appraisal before it ever reaches the gavel — so buyers and consignors bid with total confidence.</p>
+      <ul class="feature-list mt-lg">
+        <li><span class="tick">✓</span><div><b>Verified Provenance</b> — Independent authentication and documentation on every lot.</div></li>
+        <li><span class="tick">✓</span><div><b>Transparent Bidding</b> — Live, online and absentee bidding with real-time results.</div></li>
+        <li><span class="tick">✓</span><div><b>Secure Settlement</b> — Escrow-backed payments and insured global logistics.</div></li>
+        <li><span class="tick">✓</span><div><b>Pan-India &amp; Global Reach</b> — Dedicated coordinators across India with international partners.</div></li>
+      </ul>
+    </div>
+    <div class="orbit-figure" style="max-width:380px;">
+      <div class="orbit-ring r1"></div>
+      <div class="orbit-ring r2"><span class="orbit-dot" style="background:var(--blue-soft); box-shadow:0 0 16px 3px rgba(92,123,255,.7);"></span></div>
+      <div class="orbit-ring r3"></div>
+      <div class="orbit-core">
+        <svg viewBox="0 0 200 200" width="60%" height="60%">
+          <defs>
+            <linearGradient id="gPlanet" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#2451ff"/>
+              <stop offset="1" stop-color="#e6203f"/>
+            </linearGradient>
+          </defs>
+          <circle cx="100" cy="100" r="62" fill="url(#gPlanet)"/>
+          <ellipse cx="100" cy="100" rx="98" ry="26" fill="none" stroke="#f5b942" stroke-width="3" opacity="0.8"/>
+          <circle cx="60" cy="70" r="6" fill="#ffffff" opacity="0.5"/>
+          <circle cx="130" cy="120" r="4" fill="#ffffff" opacity="0.4"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Live &amp; Upcoming</span>
+      <h2>Featured lots closing soon</h2>
+      <p>A preview from our current auction cycle. Register to place a live, online or absentee bid.</p>
+    </div>
+    <div class="lots">
+      <div class="lot-card">
+        <div class="lot-visual">
+          <svg viewBox="0 0 100 100"><path d="M50 6 L58 40 L92 46 L58 54 L50 90 L42 54 L8 46 L42 40 Z" fill="#f5b942"/></svg>
+        </div>
+        <div class="lot-body">
+          <span class="lot-tag">Lot 014 · Space Memorabilia</span>
+          <h3>Flown Mission Patch Collection</h3>
+          <div class="lot-meta">
+            <span class="lot-price">$18,400</span>
+            <span class="lot-timer" data-ends>Closing…</span>
+          </div>
+        </div>
+      </div>
+      <div class="lot-card">
+        <div class="lot-visual">
+          <svg viewBox="0 0 100 100"><polygon points="50,10 70,45 50,90 30,45" fill="#5c7bff"/><polygon points="50,10 70,45 50,55 " fill="#ffffff" opacity="0.35"/></svg>
+        </div>
+        <div class="lot-body">
+          <span class="lot-tag">Lot 027 · Jewelry</span>
+          <h3>Ceylon Sapphire &amp; Diamond Necklace</h3>
+          <div class="lot-meta">
+            <span class="lot-price">$62,000</span>
+            <span class="lot-timer" data-ends>Closing…</span>
+          </div>
+        </div>
+      </div>
+      <div class="lot-card">
+        <div class="lot-visual">
+          <svg viewBox="0 0 100 100"><rect x="30" y="20" width="40" height="60" rx="6" fill="#ff5470"/><circle cx="50" cy="30" r="5" fill="#fff" opacity="0.6"/></svg>
+        </div>
+        <div class="lot-body">
+          <span class="lot-tag">Lot 033 · Fine Art</span>
+          <h3>Abstract Cosmos Oil on Canvas</h3>
+          <div class="lot-meta">
+            <span class="lot-price">$27,500</span>
+            <span class="lot-timer" data-ends>Closing…</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Explore Our Universe</span>
+      <h2>A glimpse into our portfolio</h2>
+      <p>From flown hardware to fine art — browse notable lots sold through BEETA Auction House.</p>
+    </div>
+    <div class="cards">
+      <a href="portfolio.html" class="card" style="text-align:center; text-decoration:none;">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Falcon_9_Starlink_6-38_Launch_%288215014%29.jpg?width=500" alt="Real photo of a rocket launch, representing space memorabilia" style="height:130px; width:100%; object-fit:cover; border-radius:12px; margin:0 auto 16px; filter:drop-shadow(0 8px 20px rgba(0,0,0,.35));">
+        <h3>Space Memorabilia</h3>
+        <p>Flown hardware &amp; astronaut artifacts</p>
+      </a>
+      <a href="portfolio.html" class="card" style="text-align:center; text-decoration:none;">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Messier_77_spiral_galaxy_by_HST.jpg?width=500" alt="Real Hubble Space Telescope photo of a spiral galaxy, inspiring cosmic-themed fine art" style="height:130px; width:100%; object-fit:cover; border-radius:12px; margin:0 auto 16px; filter:drop-shadow(0 8px 20px rgba(0,0,0,.35));">
+        <h3>Fine Art</h3>
+        <p>Cosmic-inspired paintings &amp; sculpture</p>
+      </a>
+      <a href="portfolio.html" class="card" style="text-align:center; text-decoration:none;">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Neowise_Comet_Wisconsin.jpg?width=500" alt="Real photo of a comet streaking across the night sky, inspiring celestial jewelry motifs" style="height:130px; width:100%; object-fit:cover; border-radius:12px; margin:0 auto 16px; filter:drop-shadow(0 8px 20px rgba(0,0,0,.35));">
+        <h3>Jewelry</h3>
+        <p>Rare gemstones &amp; celestial motifs</p>
+      </a>
+    </div>
+    <div class="text-center mt-lg">
+      <a href="portfolio.html" class="btn btn-ghost">View Full Portfolio →</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="cta-band">
+      <div>
+        <span class="eyebrow">Join The Next Auction</span>
+        <h2 style="margin-top:14px;">Ready to bid among the stars?</h2>
+        <p style="margin-top:14px;">Register today for early access to catalogues, condition reports and live bidding across every BEETA auction.</p>
+      </div>
+      <a href="contact.html" class="btn btn-primary">Register to Bid</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer">
+        <div class="footer-brand">
+          <img src="images/logo.jpeg" alt="BEETA Auction House logo">
+          <span>BEETA AUCTION HOUSE</span>
+        </div>
+        <p class="blurb">A premier international auction house trading in fine art, jewelry, antiques, automobiles, real estate and rare space memorabilia.</p>
+        <div class="socials">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">📷</a>
+          <a href="#" aria-label="X (Twitter)">𝕏</a>
+          <a href="#" aria-label="YouTube">▶</a>
+        </div>
+      </div>
+      <div class="footer">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Auctions</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="team.html">Team</a></li>
+        </ul>
+      </div>
+      <div class="footer">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="services.html">Space Memorabilia</a></li>
+          <li><a href="services.html">Fine Art</a></li>
+          <li><a href="services.html">Jewelry</a></li>
+          <li><a href="services.html">Automobiles</a></li>
+        </ul>
+      </div>
+      <div class="footer">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="contact.html">Get in Touch</a></li>
+          <li><a href="contact.html">Register to Bid</a></li>
+          <li><a href="contact.html">Pan-India Support</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 BEETA Auction House. All rights reserved.</span>
+      <span>Trading in fine art, jewelry, antiques, automobiles &amp; space memorabilia.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

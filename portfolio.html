@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — BEETA Auction House</title>
+<meta name="description" content="Browse highlights from past BEETA Auction House sales — fine art, jewelry, automobiles and rare space memorabilia.">
+<link rel="icon" href="images/logo.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&family=Sora:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<canvas id="starfield"></canvas>
+<div class="grain"></div>
+
+<header class="site-nav">
+  <div class="nav-row">
+    <a href="index.html" class="brand">
+      <img src="images/logo.jpeg" alt="BEETA Auction House logo">
+      <span class="name">BEETA<span>AUCTION HOUSE</span></span>
+    </a>
+    <nav class="main-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Auctions</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="team.html">Team</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-primary">Register to Bid</a>
+      <button class="burger" aria-label="Toggle menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow">Portfolio</span>
+    <h1>Highlights from our <span class="grad-text">past auctions</span></h1>
+    <p>A selection of notable lots sold through BEETA Auction House — spanning fine art, jewelry, automobiles, antiques and rare space memorabilia.</p>
+    <div class="page-banner">
+      <img src="images/scene-astronaut.svg" alt="Astronaut floating in space near a distant planet, representing BEETA's space memorabilia auctions">
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="portfolio-filter">
+      <button class="chip active" data-filter="all">All</button>
+      <button class="chip" data-filter="space">Space Memorabilia</button>
+      <button class="chip" data-filter="art">Fine Art</button>
+      <button class="chip" data-filter="jewelry">Jewelry</button>
+      <button class="chip" data-filter="auto">Automobiles</button>
+      <button class="chip" data-filter="antiques">Antiques</button>
+    </div>
+
+    <div class="portfolio-grid">
+
+      <div class="pf-item" data-cat="space">
+        <div class="pf-image"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Falcon_9_Starlink_6-38_Launch_%288215014%29.jpg?width=700" alt="Real photo of a rocket launch, representing the flown rocket component lot" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="pf-body">
+          <span class="lot-tag">Lot 014 · Space Memorabilia</span>
+          <h3>Flown Rocket Nose Cone Fragment</h3>
+          <div class="lot-meta"><span class="lot-price">Sold · $34,200</span></div>
+        </div>
+      </div>
+
+      <div class="pf-item" data-cat="space">
+        <div class="pf-image"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Saturn_from_Cassini_Orbiter_%282007-01-19%29.jpg?width=700" alt="Real NASA/Cassini photo of Saturn and its rings" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="pf-body">
+          <span class="lot-tag">Lot 019 · Space Memorabilia</span>
+          <h3>Hand-Built Brass Orrery Model</h3>
+          <div class="lot-meta"><span class="lot-price">Sold · $12,800</span></div>
+        </div>
+      </div>
+
+      <div class="pf-item" data-cat="space">
+        <div class="pf-image"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sunita_Williams_astronaut_spacewalk.jpg?width=700" alt="Real photo of an astronaut on a spacewalk, representing the flight suit lot" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="pf-body">
+          <span class="lot-tag">Lot 021 · Space Memorabilia</span>
+          <h3>Astronaut Training Flight Suit</h3>
+          <div class="lot-meta"><span class="lot-price">Sold · $58,000</span></div>
+        </div>
+      </div>
+
+      <div class="pf-item" data-cat="art">
+        <div class="pf-image"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Pillars_of_Creation_%28NIRCam_Image%29.jpg?width=700" alt="Real Hubble/Webb telescope photo of the Pillars of Creation nebula" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="pf-body">
+          <span class="lot-tag">Lot 033 · Fine Art</span>
+          <h3>Abstract Cosmos Oil on Canvas</h3>
+          <div class="lot-meta"><span class="lot-price">Sold · $27,500</span></div>
+        </div>
+      </div>
+
+      <div class="pf-item" data-cat="art">
+        <div class="pf-image"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Messier_77_spiral_galaxy_by_HST.jpg?width=700" alt="Real Hubble Space Telescope photo of a spiral galaxy" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="pf-body">
+          <span class="lot-tag">Lot 041 · Fine Art</span>
+          <h3>Spiral Galaxy Bronze Sculpture</h3>
+          <div class="lot-meta"><span class="lot-price">Sold · $19,300</span></div>
+        </div>
+      </div>
+
+      <div class="pf-item" data-cat="jewelry">
+        <div class="pf-image"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Neowise_Comet_Wisconsin.jpg?width=700" alt="Real photo of a comet streaking across the sky" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="pf-body">
+          <span class="lot-tag">Lot 027 · Jewelry</span>
+          <h3>Comet-Motif Diamond Brooch</h3>
+          <div class="lot-meta"><span class="lot-price">Sold · $62,000</span></div>
+        </div>
+      </div>
+
+      <div class="pf-item" data-cat="jewelry">
+        <div class="pf-image"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Full_moon.jpeg?width=700" alt="Real NASA photograph of the full moon" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="pf-body">
+          <span class="lot-tag">Lot 052 · Jewelry</span>
+          <h3>Moonstone &amp; Pearl Necklace</h3>
+          <div class="lot-meta"><span class="lot-price">Sold · $21,450</span></div>
+        </div>
+      </div>
+
+      <div class="pf-item" data-cat="antiques">
+        <div class="pf-image"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/The_Blue_Marble.jpg?width=700" alt="Real NASA photograph of Earth from space" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="pf-body">
+          <span class="lot-tag">Lot 058 · Antiques</span>
+          <h3>19th-Century Cartographer's Globe</h3>
+          <div class="lot-meta"><span class="lot-price">Sold · $9,600</span></div>
+        </div>
+      </div>
+
+      <div class="pf-item" data-cat="auto">
+        <div class="pf-image gavel-bg"><img src="images/gavel-star.svg" alt="Record auction sale gavel"></div>
+        <div class="pf-body">
+          <span class="lot-tag">Lot 003 · Automobiles</span>
+          <h3>Limited-Edition Grand Tourer</h3>
+          <div class="lot-meta"><span class="lot-price">Sold · $410,000</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="wrap">
+    <div class="cta-band">
+      <div>
+        <span class="eyebrow">Have Something To Sell?</span>
+        <h2 style="margin-top:14px;">Your next lot could be the highlight of our portfolio</h2>
+        <p style="margin-top:14px;">Consign with BEETA and reach collectors across India and beyond.</p>
+      </div>
+      <a href="contact.html" class="btn btn-primary">Start a Consignment</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer">
+        <div class="footer-brand">
+          <img src="images/logo.jpeg" alt="BEETA Auction House logo">
+          <span>BEETA AUCTION HOUSE</span>
+        </div>
+        <p class="blurb">A premier international auction house trading in fine art, jewelry, antiques, automobiles, real estate and rare space memorabilia.</p>
+        <div class="socials">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">📷</a>
+          <a href="#" aria-label="X (Twitter)">𝕏</a>
+          <a href="#" aria-label="YouTube">▶</a>
+        </div>
+      </div>
+      <div class="footer">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Auctions</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="team.html">Team</a></li>
+        </ul>
+      </div>
+      <div class="footer">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="services.html">Space Memorabilia</a></li>
+          <li><a href="services.html">Fine Art</a></li>
+          <li><a href="services.html">Jewelry</a></li>
+          <li><a href="services.html">Automobiles</a></li>
+        </ul>
+      </div>
+      <div class="footer">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="contact.html">Get in Touch</a></li>
+          <li><a href="contact.html">Register to Bid</a></li>
+          <li><a href="contact.html">Pan-India Support</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 BEETA Auction House. All rights reserved.</span>
+      <span>Trading in fine art, jewelry, antiques, automobiles &amp; space memorabilia.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
